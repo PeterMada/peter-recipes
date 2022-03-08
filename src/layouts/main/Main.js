@@ -1,5 +1,6 @@
 import { Card } from '../../components/card/Card';
 import { Header } from '../header/Header';
+import { RecipeSmall } from '../../components/recipe/RecipeSmall';
 import './styles.scss';
 
 export const Main = () => {
@@ -7,6 +8,9 @@ export const Main = () => {
     <>
       <Header />
       <Card />
+      <div>
+        <RecipeSmall />
+      </div>
     </>
   );
 };
