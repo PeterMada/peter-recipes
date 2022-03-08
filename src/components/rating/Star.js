@@ -11,11 +11,12 @@ export const Star = ({ starOpacity }) => {
 
   return (
     <>
-      <svg width='32' height='32' viewBox='0 0 32 32'>
-        <use
-          xlinkHref='#star'
-          fill={starFill}
-          stroke={starFill === 'white' ? 'gray' : null}></use>
+      <svg
+        className='rating__star'
+        width='16'
+        height='16'
+        viewBox='0 0 16 16'>
+        <use xlinkHref='#star' fill={starFill} stroke='gray'></use>
       </svg>
     </>
   );

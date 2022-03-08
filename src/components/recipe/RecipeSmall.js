@@ -5,15 +5,23 @@ import './RecipeSmall.scss';
 
 export const RecipeSmall = () => {
   return (
-    <div>
-      <div>
-        <img src={burger} alt='Burger' />
+    <div className='recipe-small'>
+      <div className='recipe-small__img-wrap'>
+        <img
+          className='recipe-small__img-wrap--img'
+          src={burger}
+          alt='Burger'
+        />
       </div>
-      <div>
-        <h2>Baked Chicken and Sausage Gumbo</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div className='recipe-small__text'>
+        <h2 className='recipe-small__text--heading'>
+          <a href='/'>Baked Chicken and Sausage Gumbo</a>
+        </h2>
+        <p className='recipe-small__text--paragraph'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
         <Rating rating={3.5} outOf={5} />
-        <p>
+        <p className='recipe-small__text--author'>
           By: <a href='/'>Chef John</a>
         </p>
       </div>

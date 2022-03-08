@@ -8,7 +8,9 @@ export const Main = () => {
     <>
       <Header />
       <Card />
-      <div>
+      <div className='recipes-list'>
+        <RecipeSmall />
+        <RecipeSmall />
         <RecipeSmall />
       </div>
     </>

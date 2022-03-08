@@ -1,13 +1,17 @@
 import React from 'react';
 import { Star } from './Star';
+import './rating.scss';
 
 export const Rating = ({ rating, outOf }) => {
   const fullStar = parseInt(rating);
   const halfStar = (rating % fullStar) * 100;
 
   return (
-    <p aria-label={`Rating is ${rating} out of ${outOf}`}>
+    <p
+      className='rating'
+      aria-label={`Rating is ${rating} out of ${outOf}`}>
       <svg
+        className='rating__star--template'
         style={{ width: '32', height: '32' }}
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 32 32'>
