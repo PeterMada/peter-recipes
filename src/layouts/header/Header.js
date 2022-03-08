@@ -6,7 +6,11 @@ export const Header = () => {
   return (
     <header className='header'>
       <a href='/' className='logo'>
-        <img src={logo} alt='Peter Recipes homepage' />
+        <img
+          className='logo--img'
+          src={logo}
+          alt='Peter Recipes homepage'
+        />
       </a>
     </header>
   );
