@@ -1,6 +1,6 @@
 import React from 'react';
 import sushi from '../../assets/images/sushi.jpg';
-import './style.scss';
+// import './style.scss';
 
 export const Card = () => {
   return (

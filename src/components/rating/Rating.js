@@ -1,6 +1,6 @@
 import React from 'react';
 import { Star } from './Star';
-import './rating.scss';
+//import './rating.scss';
 
 export const Rating = ({ rating, outOf }) => {
   const fullStar = parseInt(rating);

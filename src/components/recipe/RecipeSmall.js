@@ -1,7 +1,7 @@
 import React from 'react';
 import { Rating } from '../rating/Rating';
 import burger from '../../assets/images/burger.jpg';
-import './RecipeSmall.scss';
+//import './RecipeSmall.scss';
 
 export const RecipeSmall = ({ rating, outOf }) => {
   return (

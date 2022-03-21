@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/peter-recipes-logo.jpg';
-import './styles.scss';
+// import './styles.scss';
 
 export const Header = () => {
   return (
