@@ -4,7 +4,7 @@ export const Star = ({ starOpacity }) => {
   let starFill = 'url(#half)';
 
   if (starOpacity === 0) {
-    starFill = 'white';
+    starFill = '#ffffff';
   } else if (starOpacity === 100) {
     starFill = '#fed94b';
   }
